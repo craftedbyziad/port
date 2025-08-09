@@ -128,7 +128,7 @@
 <body>
     <div class="container">
         <h2>حاسبة البورت</h2>
-        <input type="number" id="portNumber" min="1" max="1024" placeholder="أدخل رقم البورت">
+        <input type="number" id="portNumber" min="1" max="1024" placeholder="أدخل رقم الفريم">
         <button onclick="calculatePosition()">احسب</button>
         <div id="result"></div>
         <div class="copyright">
@@ -152,7 +152,7 @@
         if (column === 0) column = portsPerRow;
 
         document.getElementById("result").innerText =
-            `البورت ${port} → الصف ${row}، البورت ${column}`;
+            `البورت ${port} → الصف ${row}، الفريم ${column}`;
     }
 </script>
 </body>
